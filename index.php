@@ -11,7 +11,7 @@
 		$pelis = simplexml_load_file('data/peliculas.xml');
 		?>
 		<div id="cabecera">
-			<a href="index.php"><img class="logo" src="imagenes/logo.jpg"></a>
+			<a href="index.php"><img class="logo" src="imagenes/logo.png"></a>
 
 			<div class="buscador">
 				<input onkeydown="buscar(this);"  list="pelis" placeholder="Buscador" type="text">
